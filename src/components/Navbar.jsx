@@ -7,7 +7,7 @@ function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
     <nav
-      className={`flex justify-between items-center	 ${styles.paddingX} py-1  h-fit w-full`}
+      className={`container mx-auto flex justify-between items-center	 ${styles.paddingX} py-1  h-fit w-full`}
     >
       <div>
         <a href="#home">

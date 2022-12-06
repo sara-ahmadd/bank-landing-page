@@ -138,7 +138,35 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+.vector-16 {
+  position: absolute;
+  width: 578px;
+  height: 571px;
+  left: 797px;
+  top: 73px;
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  border: 1px solid #000000;
+  filter: blur(61.5px);
+}
 
+.feature-hover {
+  transition: 1s linear;
+  -webkit-transition: 1s linear;
+  -moz-transition: 1s linear;
+  -ms-transition: 1s linear;
+  -o-transition: 1s linear;
+}
+.feature-hover:hover {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+section {
+  margin: 8% auto;
+}
 /* #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -180,4 +208,3 @@
 .read-the-docs {
   color: #888;
 } */
-

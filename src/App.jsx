@@ -3,17 +3,17 @@ import * as Comps from "./components/index";
 
 function App() {
   return (
-    <div className={`App w-full mx-auto text-white py-1 bg-primary h-fit`}>
+    <div className={`App w-full mx-auto text-white py-1 bg-primary h-full`}>
       <Comps.Navbar />
       <Comps.Mainsection />
-      <Comps.Billing />
+      <Comps.Stats />
       <Comps.Business />
-      <Comps.CardDeal />
+      <Comps.Billing />
+      {/* <Comps.CardDeal />
       <Comps.CTA />
       <Comps.Feeadback />
       <Comps.Testimonials />
-      <Comps.Stats />
-      <Comps.Footer />
+      <Comps.Footer /> */}
     </div>
   );
 }
