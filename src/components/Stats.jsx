@@ -1,4 +1,3 @@
-import styles from "../style";
 import { stats } from "../static-data";
 const Stats = () => {
   return (

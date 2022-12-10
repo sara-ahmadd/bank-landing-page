@@ -9,6 +9,7 @@ import Mainsection from "./Mainsection";
 import Stats from "./Stats";
 import Navbar from "./Navbar";
 import Testimonials from "./Testimonials";
+import Service from "./Service";
 
 export {
   Billing,
@@ -22,4 +23,5 @@ export {
   Stats,
   Navbar,
   Testimonials,
+  Service,
 };

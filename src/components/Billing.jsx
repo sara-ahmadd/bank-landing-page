@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "../style";
 import { bill, apple, google } from "../assets";
 
 const Billing = () => {
   return (
     <section
+      id="billing"
       className={`px-[30px] container flex md:flex-row flex-col-reverse justify-between items-center mx-auto  font-poppins w-full`}
     >
       <div id="left" className="flex-1 relative ">

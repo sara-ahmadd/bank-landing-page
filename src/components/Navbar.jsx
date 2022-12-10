@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import styles from "../style";
 import { logo, menu, close } from "../assets";
 import { navLinks } from "../static-data/index";
 
@@ -11,13 +10,13 @@ function Navbar() {
     >
       <div>
         <a href="#home">
-          <img src={logo} className="w-[100px] h-[100px]" />
+          <img src={logo} className="w-[100px] h-[100px] cursor-pointer" />
         </a>
       </div>
       <ul className={`justify-end gap-[60px] w-2/5 text-white sm:flex hidden`}>
         {navLinks.map((x) => (
           <li key={x.id}>
-            <a href={`#${x.id}`} id={x.id}>
+            <a href={`#${x.id}`} className="footer-link-hover">
               {x.title}
             </a>
           </li>
@@ -37,8 +36,7 @@ function Navbar() {
         >
           {navLinks.map((x) => (
             <li key={x.id} className={`mb-3 text-center cursor-pointer`}>
-              {" "}
-              {x.title}
+              <a href={`#${x.id}`}>{x.title}</a>
             </li>
           ))}
         </ul>

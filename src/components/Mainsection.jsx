@@ -1,4 +1,3 @@
-import styles from "../style";
 import { discount, arrowUp, robot } from "../assets";
 import Getstarted from "./Getstarted";
 const Mainsection = () => {
@@ -59,7 +58,7 @@ const Mainsection = () => {
         <div className="absolute z-[0] rounded-full w-[40%] h-[60%] right-[10%] top-[10%] pink__gradient" />
         <div className="absolute z-[1] rounded-full w-[80%] h-[40%] right-[10%] bottom-[30%] blue__gradient" />
         <div className="absolute z-[2] rounded-full w-[50%] h-[60%] right-[10%] bottom-[10%] white__gradient" />
-        <div className={`ss:hidden ${styles.flexCenter}`}>
+        <div className={`ss:hidden flex justify-center items-center`}>
           <Getstarted />
         </div>
       </div>

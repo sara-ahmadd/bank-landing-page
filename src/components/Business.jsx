@@ -1,11 +1,11 @@
 import React from "react";
-import styles from "../style";
 import { features } from "../static-data";
 import Button from "./Button";
 
 const Business = () => {
   return (
     <section
+      id="features"
       className={`px-[30px] container mx-auto flex md:flex-row flex-col justify-center items-center  font-poppins`}
     >
       <div
@@ -35,9 +35,7 @@ const Business = () => {
           return (
             <div
               key={feature.id}
-              className={`${
-                styles.flexCenter
-              } justify-between items-start gap-6 p-2 rounded-lg feature-hover w-[100%] ${
+              className={`flex justify-between items-start gap-6 p-2 rounded-lg feature-hover w-[100%] ${
                 index !== features.length - 1 && `mb-6 `
               }`}
             >

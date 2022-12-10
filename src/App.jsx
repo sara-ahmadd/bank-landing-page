@@ -11,9 +11,9 @@ function App() {
       <Comps.Billing />
       <Comps.CardDeal />
       <Comps.Feeadback />
-      {/* <Comps.CTA />
-      <Comps.Testimonials />
-      <Comps.Footer /> */}
+      <Comps.CTA />
+      <Comps.Service />
+      <Comps.Footer />
     </div>
   );
 }
