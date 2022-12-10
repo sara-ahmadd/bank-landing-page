@@ -5,7 +5,7 @@ const Mainsection = () => {
   return (
     <section
       id="home"
-      className={`container mx-auto ${styles.paddingX} flex md:flex-row flex-col mx-auto my-0 items-center justify-between font-poppins`}
+      className={`px-[30px] container mx-auto flex md:flex-row flex-col  my-0 items-center justify-between font-poppins`}
     >
       <div
         id="left-part"
@@ -34,7 +34,7 @@ const Mainsection = () => {
             <Getstarted />
           </div>
         </div>
-        <h1 className="xs:text-7xl text-4xl font-semibold sm:leading-[90px] w-f">
+        <h1 className="xs:text-6xl text-4xl font-semibold sm:leading-[90px] w-f">
           Payment Method.
         </h1>
         <div>

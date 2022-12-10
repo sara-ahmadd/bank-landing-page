@@ -9,9 +9,9 @@ function App() {
       <Comps.Stats />
       <Comps.Business />
       <Comps.Billing />
-      {/* <Comps.CardDeal />
-      <Comps.CTA />
+      <Comps.CardDeal />
       <Comps.Feeadback />
+      {/* <Comps.CTA />
       <Comps.Testimonials />
       <Comps.Footer /> */}
     </div>

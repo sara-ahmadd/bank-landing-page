@@ -6,7 +6,7 @@ import Button from "./Button";
 const Business = () => {
   return (
     <section
-      className={`container mx-auto flex md:flex-row flex-col ${styles.flexCenter}  ${styles.paddingX} font-poppins`}
+      className={`px-[30px] container mx-auto flex md:flex-row flex-col justify-center items-center  font-poppins`}
     >
       <div
         id="left"
@@ -29,7 +29,7 @@ const Business = () => {
       </div>
       <div
         id="right"
-        className="flex flex-col items-start justify-center gap-5 my-7 md:w-[40%] w-[100%]"
+        className="flex flex-col items-start justify-between gap-5 my-7 md:w-[50%] w-[100%]"
       >
         {features.map((feature, index) => {
           return (
@@ -37,11 +37,11 @@ const Business = () => {
               key={feature.id}
               className={`${
                 styles.flexCenter
-              } items-start gap-4 py-2 px-5 rounded-lg feature-hover ${
+              } justify-between items-start gap-6 p-2 rounded-lg feature-hover w-[100%] ${
                 index !== features.length - 1 && `mb-6 `
               }`}
             >
-              <div className="rounded-full bg-dimBlue p-4">
+              <div className="rounded-[50%] md:w-[70px] w-[80px] md:h-[70px] h-[80px]  bg-dimBlue p-4">
                 <img
                   src={feature.icon}
                   alt={feature.icon}
